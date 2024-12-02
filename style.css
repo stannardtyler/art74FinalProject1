@@ -1,41 +1,26 @@
+/*This is a custom divclass which makes a rectangle with a grey background. This is a good example of "placeholder" code which acts as placeholder for future images (Feel free to change the pixel size with the height attribute)*/
+.fakeimg {
+  height: 500px;
+  background: #aaa;
+}
+/*This ends the custom fakeimage CSS*/
+
+/*This style code below changes the entire body tag of the html page. Your "body" tag contains most of your pages content, so these style elements will be what your viewers see when reviewing text and image content on your page. Choose wisely here as this is you main page look! Consider matching or mirroing the style elements here with the jumbotron CSS code below*/
 body {
-  font-family: HK Grotesk;
-  background-color: var(--color-bg);
+  background-color: #ffffff;
+  color: black;
+  font-family: Verdana;
 }
+/*This ends the body tag CSS*/
 
-/* Page structure */
-.wrapper {
-  min-height: var(--wrapper-height);
-  display: grid;
-  place-items: center;
-  margin: 0 1rem;
+/*This style code below changes the header box style that we see at the top of the page*/
+.jumbotron {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  background-color: #e3e3e3;
 }
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+/*This ends the headerbox "jumbotron" CSS*/
 
-/* Very light scaling for our illustration */
-.title {
-  color: #2800ff;
-  font-family: HK Grotesk;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 100px;
-  line-height: 105%;
-  margin: 0;
-}
-
-/* Very light scaling for our illustration */
-.illustration {
-  max-width: 100%;
-  max-height: var(--image-max-width);
-  margin-top: var(--image-margin);
-}
-
-/* https://www.w3schools.com/html/html5_canvas.asp */
 canvas {
   margin: auto;
   display: block;
@@ -48,13 +33,13 @@ iframe {
   height: 460px;
 }
 
-.sketchfab-embed-wrapper{
+.sketchfab-embed-wrapper {
   position: relative;
   overflow: hidden;
   width: 100%;
   padding-top: 56.25%; /* 16:9 Aspect Ratio*/
 }
-.sketchfab-embed-wrapper iframe{
+.sketchfab-embed-wrapper iframe {
   position: absolute;
   top: 0;
   left: 0;
