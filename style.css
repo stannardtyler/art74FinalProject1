@@ -26,6 +26,14 @@ canvas {
   display: block;
 }
 
+/* This will help center and make your images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
 iframe {
   margin: auto;
   display: block;
